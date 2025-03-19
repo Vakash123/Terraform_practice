@@ -1,18 +1,18 @@
 variable name_of_the_instance {
   type        = string
-  default     = "Akash"
+  default     = " "
   description = "Providing the name of the server"
 }
 
 variable ami_id {
     type = string
-    default = "ami-05c179eced2eb9b5b"
+    default = " "
     description = "providing the AMI ID for an instance "
 }
 
 variable type_of_instance {
     description = "Providing the values"
-    default = "t2.micro"
+    default = " "
     type = string
     
 }
@@ -20,12 +20,12 @@ variable type_of_instance {
 variable key_pair {
     description = "providing my key pair into this"
     type = string
-    default = "Temo_Networking_1"
+    default = " "
 }
 
 variable "name_of_the_bucket" {
     description = "Providing the name of the bucket"
     type = string
-    default = "vankadariakash"
+    default = " "
   
 }

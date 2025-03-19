@@ -1,0 +1,5 @@
+ami_id = "ami-05c179eced2eb9b5b"
+type_of_instance = "t2.micro"
+key_pair = "Temo_Networking_1"
+name_of_the_bucket = "vankadariakash"
+name_of_the_instance = "akash"
